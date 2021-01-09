@@ -100,6 +100,9 @@ nav li a:hover{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: transparent;
+    background-size: cover;
+    height: 100vh;
 }
 
 .introducao h2{
@@ -354,10 +357,10 @@ footer .container{
     nav a{
         font-size: 12px;
     }
-    .introducao{
-        background: url('../images/background.jpg') center;
+    /* .introducao{
+        background: url('../images/background2.jpg') center;
         background-size: cover;
-    }
+    } */
     .introducao h2{
         margin-top: 32px;
         font-size: 18px;
