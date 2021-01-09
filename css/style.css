@@ -17,9 +17,6 @@ body{
     background-size: cover;
 }
 
-#parallax1{
-    background: transparent;
-}
 
 .container{
     max-width: 1200px;
@@ -29,6 +26,10 @@ body{
 .text-primary{
     font-size: 24px;
     font-family: 'Open Sans', sans-serif;
+}
+
+#logo{
+    margin-bottom: 16px;
 }
 
 ul{
@@ -379,7 +380,7 @@ footer .container{
         max-width: 100%;
     }
     .quote p{
-        margin-top: 128px;
+        margin-top: 64px;
         font-size: 14px;
     }
     .quote .autor{
