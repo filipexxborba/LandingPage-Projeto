@@ -354,6 +354,10 @@ footer .container{
     nav a{
         font-size: 12px;
     }
+    .introducao{
+        background: url('../images/background.jpg') center;
+        background-size: cover;
+    }
     .introducao h2{
         margin-top: 32px;
         font-size: 18px;
