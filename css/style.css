@@ -339,6 +339,7 @@ footer .container{
 @media (max-width: 759px){
     .container{
         max-width: 450px;
+        padding: 0 16px;
     }
     .menu{
         padding: 16px 8px;
@@ -357,6 +358,7 @@ footer .container{
         font-size: 18px;
         max-width: 100%;
         text-align: center;
+        padding: 0px 16px;
     }
     .outline-button{
         font-size: 14px;
@@ -377,7 +379,7 @@ footer .container{
         max-width: 100%;
     }
     .quote p{
-        margin-top: 32px;
+        margin-top: 128px;
         font-size: 14px;
     }
     .quote .autor{
@@ -415,5 +417,11 @@ footer .container{
     }
     footer{
         padding: 16px;
+    }
+    .menu .container{
+        flex-direction: column;
+    }
+    .button-form{
+        text-align: center;
     }
 }
